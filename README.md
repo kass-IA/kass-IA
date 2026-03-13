@@ -58,14 +58,16 @@
 ![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
 
 **Tools & DevOps**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-</div>
-
+  ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&log                  oColor=white)
+  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=d        
+          ocker&logoColor=white)
+    ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=fo
+          r-the-badge&logo=githubactions&logoColor=white)
+          +![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&log 
+         +oColor=white)
+ ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=lin
+          ux&logoColor=black)
+   </div>
 ---
 
 ## 📊 Stats
