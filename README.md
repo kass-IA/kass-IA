@@ -107,7 +107,6 @@
 
 </div>
 
-> ⚠️ Para ativar a snake, crie o arquivo `.github/workflows/snake.yml` no seu repositório — veja as instruções abaixo.
 
 ---
 
