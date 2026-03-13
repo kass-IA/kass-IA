@@ -167,7 +167,7 @@
 <br/>
 
 <div align="center">
-  <img src="stars.svg" width="100%" alt="stars"/>
+  <img src="stars.svg?v=2" width="100%" alt="stars"/>
 </div>
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:7366FF,50:E040A0,100:FF6CAB&height=130&section=footer)
