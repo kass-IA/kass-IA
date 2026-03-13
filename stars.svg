@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 130" width="800" height="130">
+  <defs>
+    <style>
+      @keyframes twinkle {
+        0%,100%{opacity:.15;transform:scale(.7)}
+        50%{opacity:1;transform:scale(1.3)}
+      }
+      @keyframes explode {
+        0%{opacity:0;transform:scale(0)}
+        18%{opacity:1;transform:scale(1.6)}
+        55%{opacity:.75;transform:scale(1)}
+        100%{opacity:0;transform:scale(.4)}
+      }
+      @keyframes ray-grow {
+        0%,100%{opacity:0;stroke-dashoffset:40}
+        20%,60%{opacity:.7;stroke-dashoffset:0}
+      }
+      /* dot stars */
+      .d{animation:twinkle 2s ease-in-out infinite}
+      .d1{animation:twinkle 2s ease-in-out infinite 0s}
+      .d2{animation:twinkle 2s ease-in-out infinite .25s}
+      .d3{animation:twinkle 2s ease-in-out infinite .5s}
+      .d4{animation:twinkle 2s ease-in-out infinite .75s}
+      .d5{animation:twinkle 2s ease-in-out infinite 1s}
+      .d6{animation:twinkle 2s ease-in-out infinite 1.25s}
+      .d7{animation:twinkle 2.4s ease-in-out infinite .1s}
+      .d8{animation:twinkle 2.4s ease-in-out infinite .6s}
+      .d9{animation:twinkle 2.4s ease-in-out infinite 1.1s}
+      .d10{animation:twinkle 1.7s ease-in-out infinite .3s}
+      .d11{animation:twinkle 1.7s ease-in-out infinite .9s}
+      .d12{animation:twinkle 1.7s ease-in-out infinite 1.5s}
+      /* exploding stars */
+      .e1{transform-box:fill-box;transform-origin:center;animation:explode 3.2s ease-in-out infinite}
+      .e2{transform-box:fill-box;transform-origin:center;animation:explode 3.2s ease-in-out infinite 1.07s}
+      .e3{transform-box:fill-box;transform-origin:center;animation:explode 3.2s ease-in-out infinite 2.13s}
+      .e4{transform-box:fill-box;transform-origin:center;animation:explode 2.8s ease-in-out infinite .5s}
+      .e5{transform-box:fill-box;transform-origin:center;animation:explode 2.8s ease-in-out infinite 1.9s}
+      .ray{stroke-dasharray:35;animation:ray-grow 3.2s ease-in-out infinite}
+      .ray2{stroke-dasharray:35;animation:ray-grow 3.2s ease-in-out infinite 1.07s}
+      .ray3{stroke-dasharray:35;animation:ray-grow 3.2s ease-in-out infinite 2.13s}
+    </style>
+    <radialGradient id="gp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6CAB" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#0d0a1a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gu" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7366FF" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#0d0a1a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity=".14"/>
+      <stop offset="100%" stop-color="#0d0a1a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="800" height="130" fill="#0d0a1a"/>
+  <!-- glow blobs -->
+  <ellipse cx="150" cy="65" rx="160" ry="70" fill="url(#gp)"/>
+  <ellipse cx="400" cy="65" rx="170" ry="75" fill="url(#gu)"/>
+  <ellipse cx="650" cy="65" rx="160" ry="70" fill="url(#gg)"/>
+
+  <!-- small dot stars scattered -->
+  <circle class="d1" cx="35"  cy="18"  r="1.5" fill="white"/>
+  <circle class="d2" cx="88"  cy="42"  r="1"   fill="#FFD6EC"/>
+  <circle class="d3" cx="145" cy="10"  r="2"   fill="white"/>
+  <circle class="d4" cx="210" cy="32"  r="1"   fill="#C084FC"/>
+  <circle class="d5" cx="268" cy="14"  r="1.5" fill="white"/>
+  <circle class="d6" cx="330" cy="38"  r="1"   fill="#FFB6C1"/>
+  <circle class="d7" cx="390" cy="8"   r="2"   fill="white"/>
+  <circle class="d8" cx="450" cy="26"  r="1.5" fill="#C084FC"/>
+  <circle class="d9" cx="512" cy="16"  r="1"   fill="white"/>
+  <circle class="d10" cx="575" cy="36" r="1.5" fill="#FFD6EC"/>
+  <circle class="d11" cx="630" cy="10" r="2"   fill="white"/>
+  <circle class="d12" cx="695" cy="28" r="1"   fill="#FFB6C1"/>
+  <circle class="d1" cx="758" cy="18" r="1.5"  fill="white"/>
+  <circle class="d3" cx="60"  cy="70" r="1"    fill="#C084FC"/>
+  <circle class="d5" cx="118" cy="88" r="1.5"  fill="white"/>
+  <circle class="d7" cx="185" cy="62" r="1"    fill="#FFD6EC"/>
+  <circle class="d9" cx="245" cy="82" r="1.5"  fill="white"/>
+  <circle class="d2" cx="310" cy="68" r="1"    fill="#FFB6C1"/>
+  <circle class="d4" cx="370" cy="95" r="1.5"  fill="white"/>
+  <circle class="d6" cx="435" cy="74" r="1"    fill="#C084FC"/>
+  <circle class="d8" cx="495" cy="90" r="1.5"  fill="white"/>
+  <circle class="d10" cx="558" cy="64" r="1"   fill="#FFD6EC"/>
+  <circle class="d12" cx="618" cy="92" r="1.5" fill="white"/>
+  <circle class="d1" cx="680" cy="78" r="1"    fill="#FFB6C1"/>
+  <circle class="d3" cx="745" cy="96" r="1.5"  fill="white"/>
+  <circle class="d5" cx="788" cy="50" r="1"    fill="#C084FC"/>
+  <circle class="d11" cx="22" cy="105" r="1.5" fill="white"/>
+  <circle class="d7" cx="790" cy="110" r="1"   fill="#FFD6EC"/>
+
+  <!-- EXPLODING STAR 1 — pink, left -->
+  <!-- rays -->
+  <line class="ray" x1="148" y1="25" x2="148" y2="75" stroke="#FF6CAB" stroke-width="1.8"/>
+  <line class="ray" x1="123" y1="50" x2="173" y2="50" stroke="#FF6CAB" stroke-width="1.8"/>
+  <line class="ray" x1="131" y1="33" x2="165" y2="67" stroke="#FF6CAB" stroke-width="1.5"/>
+  <line class="ray" x1="165" y1="33" x2="131" y2="67" stroke="#FF6CAB" stroke-width="1.5"/>
+  <!-- star shape -->
+  <g class="e1">
+    <path d="M148,50 L152,38 L156,50 L168,50 L158,58 L162,70 L152,62 L142,70 L146,58 L136,50Z" fill="#FF6CAB"/>
+    <circle cx="148" cy="50" r="7" fill="white"/>
+    <circle cx="148" cy="50" r="3.5" fill="#FF91C2"/>
+  </g>
+
+  <!-- EXPLODING STAR 2 — purple, center -->
+  <line class="ray2" x1="400" y1="15" x2="400" y2="75" stroke="#7366FF" stroke-width="1.8"/>
+  <line class="ray2" x1="370" y1="45" x2="430" y2="45" stroke="#7366FF" stroke-width="1.8"/>
+  <line class="ray2" x1="379" y1="24" x2="421" y2="66" stroke="#7366FF" stroke-width="1.5"/>
+  <line class="ray2" x1="421" y1="24" x2="379" y2="66" stroke="#7366FF" stroke-width="1.5"/>
+  <g class="e2">
+    <path d="M400,45 L405,31 L410,45 L424,45 L413,54 L418,68 L405,59 L392,68 L397,54 L386,45Z" fill="#7366FF"/>
+    <circle cx="400" cy="45" r="8" fill="white"/>
+    <circle cx="400" cy="45" r="4" fill="#9B8FFF"/>
+  </g>
+
+  <!-- EXPLODING STAR 3 — gold, right -->
+  <line class="ray3" x1="652" y1="25" x2="652" y2="75" stroke="#FFD700" stroke-width="1.8"/>
+  <line class="ray3" x1="627" y1="50" x2="677" y2="50" stroke="#FFD700" stroke-width="1.8"/>
+  <line class="ray3" x1="635" y1="33" x2="669" y2="67" stroke="#FFD700" stroke-width="1.5"/>
+  <line class="ray3" x1="669" y1="33" x2="635" y2="67" stroke="#FFD700" stroke-width="1.5"/>
+  <g class="e3">
+    <path d="M652,50 L656,38 L660,50 L672,50 L662,58 L666,70 L656,62 L646,70 L650,58 L640,50Z" fill="#FFD700"/>
+    <circle cx="652" cy="50" r="7" fill="white"/>
+    <circle cx="652" cy="50" r="3.5" fill="#FFE87A"/>
+  </g>
+
+  <!-- small exploding accents -->
+  <g class="e4">
+    <path d="M270,38 L272,30 L274,38 L282,38 L276,43 L278,51 L272,46 L266,51 L268,43 L262,38Z" fill="#FF91C2"/>
+    <circle cx="272" cy="38" r="4" fill="white"/>
+  </g>
+  <g class="e5">
+    <path d="M540,35 L542,27 L544,35 L552,35 L546,40 L548,48 L542,43 L536,48 L538,40 L532,35Z" fill="#C084FC"/>
+    <circle cx="542" cy="35" r="4" fill="white"/>
+  </g>
+
+  <!-- medium decorative twinkling 4-point stars -->
+  <g class="d4" style="transform-box:fill-box;transform-origin:center">
+    <path d="M55,48 L57,40 L59,48 L67,48 L61,53 L63,61 L57,56 L51,61 L53,53 L47,48Z" fill="#FF6CAB" opacity=".7"/>
+  </g>
+  <g class="d8" style="transform-box:fill-box;transform-origin:center">
+    <path d="M740,42 L742,34 L744,42 L752,42 L746,47 L748,55 L742,50 L736,55 L738,47 L732,42Z" fill="#FFD700" opacity=".7"/>
+  </g>
+  <g class="d12" style="transform-box:fill-box;transform-origin:center">
+    <path d="M205,100 L207,93 L209,100 L216,100 L211,104.5 L213,111.5 L207,107 L201,111.5 L203,104.5 L198,100Z" fill="#C084FC" opacity=".7"/>
+  </g>
+  <g class="d3" style="transform-box:fill-box;transform-origin:center">
+    <path d="M595,98 L597,91 L599,98 L606,98 L601,102.5 L603,109.5 L597,105 L591,109.5 L593,102.5 L588,98Z" fill="#FF91C2" opacity=".7"/>
+  </g>
+</svg>
