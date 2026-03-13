@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100" width="800" height="100">
+  <defs>
+    <style>
+      @keyframes twinkle {
+        0%,100%{opacity:0;transform:scale(0.5)}
+        50%{opacity:1;transform:scale(1.2)}
+      }
+      @keyframes drift {
+        0%{transform:translateY(0px) translateX(0px)}
+        33%{transform:translateY(-4px) translateX(2px)}
+        66%{transform:translateY(2px) translateX(-2px)}
+        100%{transform:translateY(0px) translateX(0px)}
+      }
+      @keyframes drift2 {
+        0%{transform:translateY(0px) translateX(0px)}
+        33%{transform:translateY(3px) translateX(-3px)}
+        66%{transform:translateY(-2px) translateX(2px)}
+        100%{transform:translateY(0px) translateX(0px)}
+      }
+      .s{transform-box:fill-box;transform-origin:center}
+      .a1{animation:twinkle 2.1s ease-in-out infinite}
+      .a2{animation:twinkle 2.1s ease-in-out infinite .3s}
+      .a3{animation:twinkle 2.1s ease-in-out infinite .6s}
+      .a4{animation:twinkle 2.1s ease-in-out infinite .9s}
+      .a5{animation:twinkle 2.1s ease-in-out infinite 1.2s}
+      .a6{animation:twinkle 2.1s ease-in-out infinite 1.5s}
+      .a7{animation:twinkle 2.1s ease-in-out infinite 1.8s}
+      .a8{animation:twinkle 1.6s ease-in-out infinite .2s}
+      .a9{animation:twinkle 1.6s ease-in-out infinite .7s}
+      .a10{animation:twinkle 1.6s ease-in-out infinite 1.1s}
+      .a11{animation:twinkle 2.8s ease-in-out infinite .4s}
+      .a12{animation:twinkle 2.8s ease-in-out infinite 1s}
+      .a13{animation:twinkle 2.8s ease-in-out infinite 1.6s}
+      .a14{animation:twinkle 2.8s ease-in-out infinite 2.2s}
+      .d1{animation:drift 6s ease-in-out infinite}
+      .d2{animation:drift2 7s ease-in-out infinite}
+      .d3{animation:drift 8s ease-in-out infinite 1s}
+      .d4{animation:drift2 5s ease-in-out infinite 2s}
+      .d5{animation:drift 9s ease-in-out infinite .5s}
+    </style>
+  </defs>
+
+  <!-- tiny dots -->
+  <circle class="s a1"  cx="18"  cy="12" r="1.2" fill="white"/>
+  <circle class="s a2"  cx="55"  cy="35" r="1"   fill="white"/>
+  <circle class="s a3"  cx="92"  cy="8"  r="1.5" fill="white"/>
+  <circle class="s a4"  cx="130" cy="52" r="1"   fill="white"/>
+  <circle class="s a5"  cx="168" cy="18" r="1.2" fill="white"/>
+  <circle class="s a6"  cx="210" cy="42" r="1"   fill="white"/>
+  <circle class="s a7"  cx="248" cy="10" r="1.5" fill="white"/>
+  <circle class="s a8"  cx="285" cy="65" r="1"   fill="white"/>
+  <circle class="s a9"  cx="320" cy="22" r="1.2" fill="white"/>
+  <circle class="s a10" cx="358" cy="48" r="1"   fill="white"/>
+  <circle class="s a11" cx="395" cy="14" r="1.5" fill="white"/>
+  <circle class="s a12" cx="432" cy="38" r="1"   fill="white"/>
+  <circle class="s a13" cx="470" cy="72" r="1.2" fill="white"/>
+  <circle class="s a14" cx="508" cy="20" r="1"   fill="white"/>
+  <circle class="s a1"  cx="545" cy="55" r="1.5" fill="white"/>
+  <circle class="s a3"  cx="582" cy="10" r="1"   fill="white"/>
+  <circle class="s a5"  cx="618" cy="40" r="1.2" fill="white"/>
+  <circle class="s a7"  cx="655" cy="25" r="1"   fill="white"/>
+  <circle class="s a9"  cx="692" cy="60" r="1.5" fill="white"/>
+  <circle class="s a11" cx="728" cy="15" r="1"   fill="white"/>
+  <circle class="s a2"  cx="762" cy="45" r="1.2" fill="white"/>
+  <circle class="s a4"  cx="790" cy="28" r="1"   fill="white"/>
+
+  <!-- second layer -->
+  <circle class="s a6"  cx="35"  cy="70" r="1"   fill="white"/>
+  <circle class="s a8"  cx="75"  cy="85" r="1.2" fill="white"/>
+  <circle class="s a10" cx="115" cy="78" r="1"   fill="white"/>
+  <circle class="s a12" cx="155" cy="90" r="1.5" fill="white"/>
+  <circle class="s a14" cx="195" cy="68" r="1"   fill="white"/>
+  <circle class="s a2"  cx="235" cy="82" r="1.2" fill="white"/>
+  <circle class="s a4"  cx="275" cy="92" r="1"   fill="white"/>
+  <circle class="s a6"  cx="315" cy="75" r="1.5" fill="white"/>
+  <circle class="s a8"  cx="355" cy="88" r="1"   fill="white"/>
+  <circle class="s a10" cx="415" cy="80" r="1.2" fill="white"/>
+  <circle class="s a12" cx="455" cy="95" r="1"   fill="white"/>
+  <circle class="s a14" cx="495" cy="70" r="1.5" fill="white"/>
+  <circle class="s a1"  cx="535" cy="88" r="1"   fill="white"/>
+  <circle class="s a3"  cx="575" cy="78" r="1.2" fill="white"/>
+  <circle class="s a5"  cx="615" cy="92" r="1"   fill="white"/>
+  <circle class="s a7"  cx="650" cy="82" r="1.5" fill="white"/>
+  <circle class="s a9"  cx="685" cy="68" r="1"   fill="white"/>
+  <circle class="s a11" cx="718" cy="90" r="1.2" fill="white"/>
+  <circle class="s a13" cx="752" cy="75" r="1"   fill="white"/>
+  <circle class="s a2"  cx="780" cy="88" r="1.5" fill="white"/>
+
+  <!-- bigger drifting stars -->
+  <circle class="s d1"  cx="70"  cy="30" r="2"   fill="white" opacity=".8"/>
+  <circle class="s d2"  cx="200" cy="55" r="1.8" fill="#FFD6EC" opacity=".8"/>
+  <circle class="s d3"  cx="370" cy="30" r="2.2" fill="white" opacity=".8"/>
+  <circle class="s d4"  cx="560" cy="45" r="1.8" fill="#FFD6EC" opacity=".8"/>
+  <circle class="s d5"  cx="720" cy="35" r="2"   fill="white" opacity=".8"/>
+</svg>
