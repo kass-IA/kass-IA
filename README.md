@@ -12,10 +12,6 @@
   <img src="gatinho%20pulando.gif" width="200" height="200" alt="cute cat"/>
 </div>
 
-<div align="center">
-  <img src="girl.gif" width="220" height="220" alt="waving girl"/>
-</div>
-
 <br/>
 
 ---
