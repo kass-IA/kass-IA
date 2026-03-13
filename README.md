@@ -9,9 +9,9 @@
 <br/>
 
 <div align="center">
-  <img src="assets/gatinho%20pulando.gif" width="200" height="250" alt="cute cat"/>
+  <img src="gatinho%20pulando.gif" width="200" height="250" alt="cute cat"/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/girl.svg" width="224" height="250" alt="waving girl"/>
+  <img src="girl.svg" width="224" height="250" alt="waving girl"/>
 </div>
 
 <br/>
@@ -160,7 +160,7 @@
 <br/>
 
 <div align="center">
-  <img src="assets/stars.svg" width="100%" alt="stars"/>
+  <img src="stars.svg" width="100%" alt="stars"/>
 </div>
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:7366FF,50:E040A0,100:FF6CAB&height=130&section=footer)
