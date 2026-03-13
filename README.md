@@ -9,9 +9,11 @@
 <br/>
 
 <div align="center">
-  <img src="gatinho%20pulando.gif" width="200" height="250" alt="cute cat"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="girl.svg" width="224" height="250" alt="waving girl"/>
+  <img src="gatinho%20pulando.gif" width="200" height="200" alt="cute cat"/>
+</div>
+
+<div align="center">
+  <img src="girl.gif" width="220" height="220" alt="waving girl"/>
 </div>
 
 <br/>
