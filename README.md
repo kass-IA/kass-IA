@@ -24,24 +24,33 @@
 
 <table>
   <tr>
-    <td align="left">🚀</td>
-    <td><b>Ships features before the meeting ends</b></td>
-  </tr>
-  <tr>
-    <td align="left">🧩</td>
-    <td>Thinks in components, dreams in APIs</td>
-  </tr>
-  <tr>
-    <td align="left">🔍</td>
-    <td>Bugs don't hide — they just wait to be found</td>
-  </tr>
-  <tr>
-    <td align="left">✨</td>
-    <td>Clean code, or it gets rewritten</td>
-  </tr>
-  <tr>
-    <td align="left">🤖</td>
-    <td>Watching AI closely before it watches me</td>
+    <td valign="middle">
+      <table>
+        <tr>
+          <td align="left">🚀</td>
+          <td><b>Ships features before the meeting ends</b></td>
+        </tr>
+        <tr>
+          <td align="left">🧩</td>
+          <td>Thinks in components, dreams in APIs</td>
+        </tr>
+        <tr>
+          <td align="left">🔍</td>
+          <td>Bugs don't hide — they just wait to be found</td>
+        </tr>
+        <tr>
+          <td align="left">✨</td>
+          <td>Clean code, or it gets rewritten</td>
+        </tr>
+        <tr>
+          <td align="left">🤖</td>
+          <td>Watching AI closely before it watches me</td>
+        </tr>
+      </table>
+    </td>
+    <td valign="middle" align="center" width="200">
+      <img src="girl.gif" width="180" height="180" alt="waving girl"/>
+    </td>
   </tr>
 </table>
 
