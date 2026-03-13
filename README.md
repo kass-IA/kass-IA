@@ -9,7 +9,7 @@
 <br/>
 
 <div align="center">
-  <img src="assets/gatinho pulando.gif" width="200" height="250" alt="cute cat"/>
+  +  <img src="assets/gatinho%20pulando +.gif" width="200" height="250" alt="cute cat"/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="assets/girl.svg" width="224" height="250" alt="waving girl"/>
 </div>
